@@ -1,38 +1,179 @@
 <!DOCTYPE html>
-	<head>
-		<title>Rextree Car Rental | Home Page</title>
-		<link href="Home.css" rel="stylesheet" type="text/css" />
-	</head>
-	<body>
-		<h1>
-			<a href="Home.html"><img src="logo.png" alt="Rental Logo" width="50" height="50"/></a> Welcome To Rextree Car Rental
-		</h1>
-		<nav>
-			<a href="Home.html">Home</a> |
-			<a href="Vehicle Types.html">Our Vehichle Types</a> |
-			<a href="Rental Rates.html">Our Rental Rates</a> |
-			<a href="Booking.html">Booking</a> |
-			<a href="About Us.html">About Us</a>
-		</nav>
-		<br />
-		<hr />
-		<h2>
-			Our Service
-		</h2>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus venenatis metus, nec pulvinar est consequat in. Nunc scelerisque justo ut tincidunt placerat. Maecenas vehicula tempor urna. Phasellus convallis, velit sit amet fermentum euismod, ante nisl porttitor tortor, at egestas nunc risus eu justo. Fusce justo lacus, egestas at placerat vel, adipiscing a leo. Sed pretium laoreet augue a pretium. Pellentesque ut felis eu tellus mattis tempus. Integer ullamcorper auctor justo, non congue sapien ultricies mollis. Aenean porta quis mi et fringilla. Nullam vitae justo vitae nisi tincidunt sagittis. Vestibulum egestas ut mi nec bibendum. Aenean elementum purus id felis rutrum ornare sit amet sed nunc. Aenean sem purus, hendrerit id vehicula nec, hendrerit ac arcu. Sed condimentum varius odio quis adipiscing. Phasellus tristique in mi at ultrices. Quisque gravida arcu a orci elementum rutrum.
-		</p>
-		<p>
-			<br><br>Etiam id ante dui. Ut malesuada elit ut hendrerit rhoncus. Aliquam suscipit nec lacus in semper. Etiam convallis viverra aliquam. Vivamus lacinia urna id tincidunt consectetur. Nam viverra feugiat augue, eget mattis eros interdum a. Praesent faucibus nisl scelerisque, pellentesque odio ac, dictum risus. Fusce vel mi mauris. Suspendisse sit amet ante vitae ipsum feugiat suscipit. Nam accumsan massa a nisi molestie, venenatis porta nisi tristique. Sed sed felis eros. Etiam consequat dignissim mauris et dapibus. Aliquam dictum rutrum lectus, tristique blandit nulla consequat id. Mauris nec hendrerit diam, eget laoreet eros.
-		</p>
-		<h3>Special</h3>
-		<p>
-			Maecenas scelerisque elementum diam eu posuere. In hendrerit nisl sit amet velit placerat blandit. Mauris in fermentum nunc. Nullam at rutrum felis, vitae hendrerit mauris. Suspendisse accumsan ante nunc, vel venenatis libero sodales at. Aenean elementum in ligula nec mollis. Sed pretium, purus a elementum auctor, tortor neque gravida diam, et vestibulum arcu nulla eu neque. Phasellus ac euismod odio. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-		</p>
-		<h4>Contact Us</h4>
-		<p>
-			Email us: rextree@carrental.co.nz
-			<br /> 
-			Ring us: +64 7 123456
-		</p>
-	</body>
+
+<head>
+    <title>Car Rental</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/html5reset.css">
+    <link rel="stylesheet" href="./styles/grid.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="./styles/Home.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <i class="ion-model-s logo"></i><span class="logo">Rentals</span>
+            <nav>
+                <ul class="mainNav">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Vehicle Types.html">Vehichle Types</a></li>
+                    <li><a href="Rental Rates.html">Rental Rates</a></li>
+                    <li><a href="Booking.html">Booking</a></li>
+                    <li><a href="About Us.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="heroText">
+            <h1>This is the right place for car rental in New Zealand.</h1>
+            <a class="btn btnRes" href="#">Make Reservation</a>
+        </div>
+    </header>
+    <div class="group section row">
+        <div class="col span_1_of_3 intro">
+            <h2><i class="iconTitle ion-settings"></i>Our Service</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus venenatis metus, nec pulvinar est consequat in. Nunc scelerisque justo ut tincidunt placerat. Maecenas vehicula tempor urna. Phasellus convallis, velit sit amet fermentum euismod, ante nisl porttitor tortor, at egestas nunc risus eu justo. Fusce justo lacus, egestas at placerat vel, adipiscing a leo. Sed pretium laoreet augue a pretium. Pellentesque ut felis eu tellus mattis tempus. </p>
+        </div>
+        <div class="col span_1_of_3 intro">
+            <h2><i class="iconTitle ion-android-checkbox-outline"></i>Our Targets</h2>
+            <p>Pellentesque ut felis eu tellus mattis tempus. Integer ullamcorper auctor justo, non congue sapien ultricies mollis. Aenean porta quis mi et fringilla. Nullam vitae justo vitae nisi tincidunt sagittis. Vestibulum egestas ut mi nec bibendum. Aenean elementum purus id felis rutrum ornare sit amet sed nunc. Aenean sem purus, hendrerit id vehicula nec, hendrerit ac arcu. Sed condimentum varius odio quis adipiscing. Phasellus tristique in mi at ultrices. Quisque gravida arcu a orci elementum rutrum.</p>
+        </div>
+        <div class="col span_1_of_3 intro">
+            <h2><i class="iconTitle ion-android-car"></i>Our Vehicles</h2>
+            <p>Aenean porta quis mi et fringilla. Nullam vitae justo vitae nisi tincidunt sagittis. Vestibulum egestas ut mi nec bibendum. Aenean elementum purus id felis rutrum ornare sit amet sed nunc. Aenean sem purus, hendrerit id vehicula nec, hendrerit ac arcu. Sed condimentum varius odio quis adipiscing. Phasellus tristique in mi at ultrices. Quisque gravida arcu a orci elementum rutrum.</p>
+        </div>
+    </div>
+    <div class="divider1">
+        <div class="dividerTextBox">
+            <h2>Safety Driving in New Zealand</h2>
+            <p>If you're from overseas, New Zealand roads are probably different to what you're used to. Distances may seem short on paper, but our roads can be narrower than you're used to, cover hilly terrain, and vary from motorways to unsealed gravel roads.</p>
+            <a href="#" class="btn btnMoreInfo">More information</a>
+        </div>
+    </div>
+    <div class="group section row">
+        <h1 class="vehicleTypeTitle">Vehicle types</h1>
+        <div class="col span_1_of_3 vehicle">
+            <img class="carIcon" src="./img/city-car.png" alt="small car">
+            <h2>Small car</h2>
+            <ul>
+                <li>Yaris or Tiida</li>
+                <li>Auto or Manual Transmission</li>
+                <li>4 Seats</li>
+                <li>2 <i class="ion-ios-briefcase"></i> & 4<i class="ion-person"></i></li>
+                <li>Petrol Engine</li>
+            </ul>
+        </div>
+        <div class="col span_1_of_3 vehicle">
+            <img class="carIcon" src="./img/sedan.png" alt="sedan">
+            <h2>Mid-size Sedan</h2>
+            <ul>
+                <li>Camry or Accord</li>
+                <li>Auto Transmission</li>
+                <li>5 Seats</li>
+                <li>3 <i class="ion-ios-briefcase"></i> & 5<i class="ion-person"></i></li>
+                <li>Petrol Engine</li>
+            </ul>
+        </div>
+        <div class="col span_1_of_3 vehicle">
+            <img class="carIcon" src="./img/SUV.png" alt="suv">
+            <h2>SUV</h2>
+            <ul>
+                <li>Prado or Patrol</li>
+                <li>Auto Transmission</li>
+                <li>5 or 7 Seats</li>
+                <li>4 <i class="ion-ios-briefcase"></i> & 5<i class="ion-person"></i></li>
+                <li>Diesel Engine</li>
+            </ul>
+        </div>
+        <div class="col span_1_of_3 vehicle">
+            <img class="carIcon" src="./img/minivan.png" alt="miniVan">
+            <h2>Mini Van</h2>
+            <ul>
+                <li>Hiace or iMax</li>
+                <li>Auto Transmission</li>
+                <li>8 Seats</li>
+                <li>4 <i class="ion-ios-briefcase"></i> & 8<i class="ion-person"></i></li>
+                <li>Petrol or Diesel Engine</li>
+            </ul>
+        </div>
+        <div class="col span_1_of_3 vehicle">
+            <img class="carIcon" src="./img/cabriolet.png" alt="cabriolt">
+            <h2>Convertiable</h2>
+            <ul>
+                <li>Ford Mustang</li>
+                <li>Auto Transmission</li>
+                <li>2 Seats</li>
+                <li>2 <i class="ion-ios-briefcase"></i> & 2<i class="ion-person"></i></li>
+                <li>Petrol Engine</li>
+            </ul>
+        </div>
+        <div class="col span_1_of_3 vehicle">
+            <img class="carIcon" src="./img/van.png" alt="van">
+            <h2>Van</h2>
+            <ul>
+                <li>Hiace Cargo or Transit</li>
+                <li>Auto or Manual Transmission</li>
+                <li>2 Seats</li>
+                <li>12 <i class="ion-ios-briefcase"></i> & 2<i class="ion-person"></i></li>
+                <li>Petrol or Diesel Engine</li>
+            </ul>
+        </div>
+    </div>
+    <div class="divider2">
+
+    </div>
+    <div class="section group row">
+        <div class="div col rateTable">
+           <h2>Rental Rates</h2>
+            <table>
+                <tr style="background-color: #f1c40f">
+                    <th>Vehicle Type</th>
+                    <th>Transmission</th>
+                    <th>Daily Rate</th>
+                </tr>
+                <tr>
+                    <td>Small-VW Polo</td>
+                    <td>Manual</td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Small-Holden Barina</td>
+                    <td>Automatic</td>
+                    <td>$35</td>
+                </tr>
+                <tr>
+                    <td>Medium-Holden Malibu</td>
+                    <td>Automatic</td>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <td>Large-Holden Commordore</td>
+                    <td>Automatic</td>
+                    <td>$60</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="map">
+        <div id="map"></div>
+    </div>
+    <div class="section group row contact">
+       <h1>Contact us</h1>
+        <div class="col span_1_of_2">
+            
+        </div>
+    </div>
+    <h3>Special</h3>
+    <p>
+        Maecenas scelerisque elementum diam eu posuere. In hendrerit nisl sit amet velit placerat blandit. Mauris in fermentum nunc. Nullam at rutrum felis, vitae hendrerit mauris. Suspendisse accumsan ante nunc, vel venenatis libero sodales at. Aenean elementum in ligula nec mollis. Sed pretium, purus a elementum auctor, tortor neque gravida diam, et vestibulum arcu nulla eu neque. Phasellus ac euismod odio. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+    </p>
+    <h4>Contact Us</h4>
+    <p>
+        Email us: rextree@carrental.co.nz
+        <br /> Ring us: +64 7 123456
+    </p>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1XC-48DyOivRJXOAJDiHQHbEhrnrQtxc&callback=initMap">
+    </script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+</body>
