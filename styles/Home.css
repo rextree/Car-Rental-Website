@@ -84,7 +84,7 @@ header {
 
 .mainNav {
     float: right;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .mainNav li {
@@ -176,7 +176,7 @@ header {
 /*divider*/
 
 .divider1 {
-    height: 75vh;
+    height: 80vh;
     background-image: linear-gradient(rgba( 0, 0, 0, 0.3), rgba( 0, 0, 0, 0.3)), url(../img/tongariro.jpg);
     background-size: cover;
     background-position: center;
@@ -249,7 +249,7 @@ header {
 }
 
 .divider2{
-    height: 75vh;
+    height: 80vh;
     background-image: linear-gradient(rgba( 0, 0, 0, 0.3), rgba( 0, 0, 0, 0.3 )), url(../img/dividerImage.jpeg);
     background-size: cover;
     background-position: center;
@@ -291,7 +291,7 @@ table{
 }
 
 .map{
-    height: 70vh;
+    height: 80vh;
 }
 #map{
     height: 100%;
@@ -301,4 +301,57 @@ table{
     text-transform: uppercase;
     font-size: 150%;
     text-align: center;
+    margin-bottom: 20px;
+}
+
+.priceText{
+    width: 1140px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.priceText p{
+    font-weight: 300;
+    font-size: 150%;
+    color: #fff;
+    line-height: 150%;
+    padding: 20px;
+    background-color: rgba( 255, 255, 255, 0.3);
+    border-radius: 15px;
+}
+
+.panelA{
+    margin-left: 0;
+}
+
+.panelA ul li{
+    list-style: none;
+    font-size: 110%;
+    padding-bottom: 15px;
+    font-weight: 300;
+}
+
+.panelA ul li i{
+    font-size: 180%;
+    margin-right: 20px;
+    color: inherit;
+    transition: all 1s;
+}
+
+.ion-social-twitter:hover{
+    color: #55acee;
+}
+
+.ion-social-instagram:hover{
+    color: #e95950;
+}
+
+.ion-social-facebook:hover{
+    color: #3b5998;
+}
+
+.ion-social-youtube:hover{
+    color: #bb0000;
 }
